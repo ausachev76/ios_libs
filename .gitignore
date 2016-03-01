@@ -1,0 +1,5 @@
+# Personal preferences of XCode
+**/*.xcodeproj/xcuserdata/
+**/*.xcodeproj/project.xcworkspace
+
+.DS_Store

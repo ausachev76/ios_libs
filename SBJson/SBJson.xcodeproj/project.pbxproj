@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCADB7CE139210C90057A705 /* SBJson.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8851271391D6CD00370E55 /* SBJson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCADB7D0139210C90057A705 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8851281391D6CD00370E55 /* SBJsonParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCADB7D1139210C90057A705 /* SBJsonStreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BC88512A1391D6CD00370E55 /* SBJsonStreamParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCADB7D2139210C90057A705 /* SBJsonStreamParserAccumulator.h in Headers */ = {isa = PBXBuildFile; fileRef = BC88512C1391D6CD00370E55 /* SBJsonStreamParserAccumulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCADB7D3139210C90057A705 /* SBJsonStreamParserAdapter.h in Headers */ = {isa = PBXBuildFile; fileRef = BC88512E1391D6CD00370E55 /* SBJsonStreamParserAdapter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCADB7D4139210C90057A705 /* SBJsonStreamParserState.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8851301391D6CD00370E55 /* SBJsonStreamParserState.h */; };
+		BCADB7D5139210C90057A705 /* SBJsonStreamWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8851321391D6CD00370E55 /* SBJsonStreamWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCADB7D6139210C90057A705 /* SBJsonStreamWriterAccumulator.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8851341391D6CD00370E55 /* SBJsonStreamWriterAccumulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCADB7D7139210C90057A705 /* SBJsonStreamWriterState.h in Headers */ = {isa = PBXBuildFile; fileRef = BC8851361391D6CD00370E55 /* SBJsonStreamWriterState.h */; };
+		BCADB7D9139210C90057A705 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = BC88513A1391D6CD00370E55 /* SBJsonWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCC2628E13921035003D9994 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8851291391D6CD00370E55 /* SBJsonParser.m */; };
+		BCC2628F13921035003D9994 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BC88512B1391D6CD00370E55 /* SBJsonStreamParser.m */; };
+		BCC2629013921035003D9994 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC88512D1391D6CD00370E55 /* SBJsonStreamParserAccumulator.m */; };
+		BCC2629113921035003D9994 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = BC88512F1391D6CD00370E55 /* SBJsonStreamParserAdapter.m */; };
+		BCC2629213921035003D9994 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8851311391D6CD00370E55 /* SBJsonStreamParserState.m */; };
+		BCC2629313921035003D9994 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8851331391D6CD00370E55 /* SBJsonStreamWriter.m */; };
+		BCC2629413921035003D9994 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8851351391D6CD00370E55 /* SBJsonStreamWriterAccumulator.m */; };
+		BCC2629513921035003D9994 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8851371391D6CD00370E55 /* SBJsonStreamWriterState.m */; };
+		BCC2629713921035003D9994 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = BC88513B1391D6CD00370E55 /* SBJsonWriter.m */; };
+		F8D046ED6DA44EDBA6FA50FC /* SBJsonStreamTokeniser.h in Headers */ = {isa = PBXBuildFile; fileRef = F8D041B0DB689CC78ABDF64D /* SBJsonStreamTokeniser.h */; };
+		F8D04C40AB8E50C09F7534AE /* SBJsonStreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D04518FD72EFA646581EAB /* SBJsonStreamTokeniser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC1232481391D5CC00131607 /* SBJson-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SBJson-Info.plist"; sourceTree = "<group>"; };
+		BC12324A1391D5CC00131607 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC12324C1391D5CC00131607 /* SBJson-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SBJson-Prefix.pch"; sourceTree = "<group>"; };
+		BC8851271391D6CD00370E55 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		BC8851281391D6CD00370E55 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		BC8851291391D6CD00370E55 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		BC88512A1391D6CD00370E55 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		BC88512B1391D6CD00370E55 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		BC88512C1391D6CD00370E55 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		BC88512D1391D6CD00370E55 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		BC88512E1391D6CD00370E55 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		BC88512F1391D6CD00370E55 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		BC8851301391D6CD00370E55 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		BC8851311391D6CD00370E55 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		BC8851321391D6CD00370E55 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		BC8851331391D6CD00370E55 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		BC8851341391D6CD00370E55 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		BC8851351391D6CD00370E55 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		BC8851361391D6CD00370E55 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		BC8851371391D6CD00370E55 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		BC88513A1391D6CD00370E55 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		BC88513B1391D6CD00370E55 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		BC88522B1391D6DD00370E55 /* ErrorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorTest.m; sourceTree = "<group>"; };
+		BC88522D1391D6DD00370E55 /* JsonCheckerSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonCheckerSuite.m; sourceTree = "<group>"; };
+		BC8852301391D6DD00370E55 /* ProxyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProxyTest.m; sourceTree = "<group>"; };
+		BC8852971391D6DE00370E55 /* StreamSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreamSuite.m; sourceTree = "<group>"; };
+		BCC2626913920FC7003D9994 /* libsbjson-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libsbjson-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC2626D13920FC7003D9994 /* sbjson-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sbjson-ios-Prefix.pch"; sourceTree = "<group>"; };
+		D7F64E5F169262AE009DF12E /* jsonchecker */ = {isa = PBXFileReference; lastKnownFileType = folder; path = jsonchecker; sourceTree = "<group>"; };
+		D7F64E651692697D009DF12E /* stream */ = {isa = PBXFileReference; lastKnownFileType = folder; path = stream; sourceTree = "<group>"; };
+		D7F64E7C1692D24D009DF12E /* main */ = {isa = PBXFileReference; lastKnownFileType = folder; path = main; sourceTree = "<group>"; };
+		D7F64EB71696C3F8009DF12E /* comparatorsort */ = {isa = PBXFileReference; lastKnownFileType = folder; path = comparatorsort; sourceTree = "<group>"; };
+		D7F64EB81696C3F8009DF12E /* format */ = {isa = PBXFileReference; lastKnownFileType = folder; path = format; sourceTree = "<group>"; };
+		F8D041B0DB689CC78ABDF64D /* SBJsonStreamTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamTokeniser.h; sourceTree = "<group>"; };
+		F8D04518FD72EFA646581EAB /* SBJsonStreamTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamTokeniser.m; sourceTree = "<group>"; };
+		F8D04A94F7A4284E41E96B8F /* MainSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSuite.m; sourceTree = "<group>"; };
+		F8D04F2055A30B07D7E8AEAF /* kuhn */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = kuhn; sourceTree = "<group>"; };
+		F8D04F629C26EB98D2031F46 /* JsonStreamTokeniserTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonStreamTokeniserTest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCC2626613920FC7003D9994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC1232311391D5CC00131607 = {
+			isa = PBXGroup;
+			children = (
+				D7F64E201692549E009DF12E /* src */,
+				BC1232461391D5CC00131607 /* SBJson */,
+				BCC2626B13920FC7003D9994 /* sbjson-ios */,
+				BC12323E1391D5CC00131607 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC12323E1391D5CC00131607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCC2626913920FC7003D9994 /* libsbjson-ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC1232461391D5CC00131607 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				BC1232471391D5CC00131607 /* Supporting Files */,
+			);
+			path = SBJson;
+			sourceTree = "<group>";
+		};
+		BC1232471391D5CC00131607 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC1232481391D5CC00131607 /* SBJson-Info.plist */,
+				BC1232491391D5CC00131607 /* InfoPlist.strings */,
+				BC12324C1391D5CC00131607 /* SBJson-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCC2626B13920FC7003D9994 /* sbjson-ios */ = {
+			isa = PBXGroup;
+			children = (
+				BCC2626C13920FC7003D9994 /* Supporting Files */,
+			);
+			path = "sbjson-ios";
+			sourceTree = "<group>";
+		};
+		BCC2626C13920FC7003D9994 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCC2626D13920FC7003D9994 /* sbjson-ios-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7F64E201692549E009DF12E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D7F64E211692549E009DF12E /* main */,
+				D7F64E251692549E009DF12E /* test */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		D7F64E211692549E009DF12E /* main */ = {
+			isa = PBXGroup;
+			children = (
+				D7F64E221692549E009DF12E /* objc */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		D7F64E221692549E009DF12E /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				BC8851271391D6CD00370E55 /* SBJson.h */,
+				BC8851371391D6CD00370E55 /* SBJsonStreamWriterState.m */,
+				BC8851361391D6CD00370E55 /* SBJsonStreamWriterState.h */,
+				BC8851301391D6CD00370E55 /* SBJsonStreamParserState.h */,
+				BC8851341391D6CD00370E55 /* SBJsonStreamWriterAccumulator.h */,
+				BC8851321391D6CD00370E55 /* SBJsonStreamWriter.h */,
+				BC8851291391D6CD00370E55 /* SBJsonParser.m */,
+				BC8851281391D6CD00370E55 /* SBJsonParser.h */,
+				BC8851331391D6CD00370E55 /* SBJsonStreamWriter.m */,
+				BC88512D1391D6CD00370E55 /* SBJsonStreamParserAccumulator.m */,
+				BC88512A1391D6CD00370E55 /* SBJsonStreamParser.h */,
+				BC88512E1391D6CD00370E55 /* SBJsonStreamParserAdapter.h */,
+				BC88512B1391D6CD00370E55 /* SBJsonStreamParser.m */,
+				BC88512F1391D6CD00370E55 /* SBJsonStreamParserAdapter.m */,
+				BC88513B1391D6CD00370E55 /* SBJsonWriter.m */,
+				BC8851351391D6CD00370E55 /* SBJsonStreamWriterAccumulator.m */,
+				BC88513A1391D6CD00370E55 /* SBJsonWriter.h */,
+				BC88512C1391D6CD00370E55 /* SBJsonStreamParserAccumulator.h */,
+				BC8851311391D6CD00370E55 /* SBJsonStreamParserState.m */,
+				F8D04518FD72EFA646581EAB /* SBJsonStreamTokeniser.m */,
+				F8D041B0DB689CC78ABDF64D /* SBJsonStreamTokeniser.h */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		D7F64E251692549E009DF12E /* test */ = {
+			isa = PBXGroup;
+			children = (
+				D7F64E381692629C009DF12E /* resources */,
+				D7F64E261692549E009DF12E /* objc */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		D7F64E261692549E009DF12E /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				BC88522D1391D6DD00370E55 /* JsonCheckerSuite.m */,
+				BC8852971391D6DE00370E55 /* StreamSuite.m */,
+				BC88522B1391D6DD00370E55 /* ErrorTest.m */,
+				BC8852301391D6DD00370E55 /* ProxyTest.m */,
+				F8D04A94F7A4284E41E96B8F /* MainSuite.m */,
+				F8D04F629C26EB98D2031F46 /* JsonStreamTokeniserTest.m */,
+			);
+			path = objc;
+			sourceTree = "<group>";
+		};
+		D7F64E381692629C009DF12E /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7F64EB71696C3F8009DF12E /* comparatorsort */,
+				D7F64EB81696C3F8009DF12E /* format */,
+				D7F64E7C1692D24D009DF12E /* main */,
+				D7F64E651692697D009DF12E /* stream */,
+				D7F64E5F169262AE009DF12E /* jsonchecker */,
+				F8D04F2055A30B07D7E8AEAF /* kuhn */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BCC2626713920FC7003D9994 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCADB7CE139210C90057A705 /* SBJson.h in Headers */,
+				BCADB7D0139210C90057A705 /* SBJsonParser.h in Headers */,
+				BCADB7D9139210C90057A705 /* SBJsonWriter.h in Headers */,
+				BCADB7D1139210C90057A705 /* SBJsonStreamParser.h in Headers */,
+				BCADB7D3139210C90057A705 /* SBJsonStreamParserAdapter.h in Headers */,
+				BCADB7D5139210C90057A705 /* SBJsonStreamWriter.h in Headers */,
+				BCADB7D2139210C90057A705 /* SBJsonStreamParserAccumulator.h in Headers */,
+				BCADB7D6139210C90057A705 /* SBJsonStreamWriterAccumulator.h in Headers */,
+				BCADB7D4139210C90057A705 /* SBJsonStreamParserState.h in Headers */,
+				BCADB7D7139210C90057A705 /* SBJsonStreamWriterState.h in Headers */,
+				F8D046ED6DA44EDBA6FA50FC /* SBJsonStreamTokeniser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BCC2626813920FC7003D9994 /* sbjson-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCC2628713920FC7003D9994 /* Build configuration list for PBXNativeTarget "sbjson-ios" */;
+			buildPhases = (
+				BCC2626513920FC7003D9994 /* Sources */,
+				BCC2626613920FC7003D9994 /* Frameworks */,
+				BCC2626713920FC7003D9994 /* Headers */,
+				59030BDA16CE4A5C00DA0714 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sbjson-ios";
+			productName = "sbjson-ios";
+			productReference = BCC2626913920FC7003D9994 /* libsbjson-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC1232331391D5CC00131607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Stig Brautaset";
+			};
+			buildConfigurationList = BC1232361391D5CC00131607 /* Build configuration list for PBXProject "SBJson" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				it,
+			);
+			mainGroup = BC1232311391D5CC00131607;
+			productRefGroup = BC12323E1391D5CC00131607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCC2626813920FC7003D9994 /* sbjson-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59030BDA16CE4A5C00DA0714 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "##########################################\n#\n# c.f. http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n#\n# Version 2.7\n#\n# Latest Change:\n# - Supports iPhone 5 / iPod Touch 5 (uses Apple's workaround to lipo bug)\n#\n# Purpose:\n#   Automatically create a Universal static library for iPhone + iPad + iPhone Simulator from within XCode\n#\n# Author: Adam Martin - http://twitter.com/redglassesapps\n# Based on: original script from Eonil (main changes: Eonil's script WILL NOT WORK in Xcode GUI - it WILL CRASH YOUR COMPUTER)\n#\n\nset -e\nset -o pipefail\n\n#################[ Tests: helps workaround any future bugs in Xcode ]########\n#\nDEBUG_THIS_SCRIPT=\"false\"\n\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\nfi\n\n#####################[ part 1 ]##################\n# First, work out the BASESDK version number (NB: Apple ought to report this, but they hide it)\n#    (incidental: searching for substrings in sh is a nightmare! Sob)\n\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\n# Next, work out if we're in SIM or DEVICE\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n#\n#####################[ end of part 1 ]##################\n\n#####################[ part 2 ]##################\n#\n# IF this is the original invocation, invoke WHATEVER other builds are required\n#\n# Xcode is already building ONE target...\n#\n# ...but this is a LIBRARY, so Apple is wrong to set it to build just one.\n# ...we need to build ALL targets\n# ...we MUST NOT re-build the target that is ALREADY being built: Xcode WILL CRASH YOUR COMPUTER if you try this (infinite recursion!)\n#\n#\n# So: build ONLY the missing platforms/configurations.\n\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n# CRITICAL:\n# Prevent infinite recursion (Xcode sucks)\nexport ALREADYINVOKED=\"true\"\n\necho \"RECURSION: I am the root ... recursing all missing build targets NOW...\"\necho \"RECURSION: ...about to invoke: xcodebuild -configuration \\\"${CONFIGURATION}\\\" -project \\\"${PROJECT_NAME}.xcodeproj\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\" BUILD_DIR=\\\"${BUILD_DIR}\\\" BUILD_ROOT=\\\"${BUILD_ROOT}\\\" SYMROOT=\\\"${SYMROOT}\\\"\n\nxcodebuild -configuration \"${CONFIGURATION}\" -project \"${PROJECT_NAME}.xcodeproj\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\"\n\nACTION=\"build\"\n\n#Merge all platform binaries as a fat binary for each configurations.\n\n# Calculate where the (multiple) built files are coming from:\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\n\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\n\nCREATING_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\necho \"...I will output a universal build to: ${CREATING_UNIVERSAL_DIR}\"\n\n# ... remove the products of previous runs of this script\n#      NB: this directory is ONLY created by this script - it should be safe to delete!\n\n# rm -rf \"${CREATING_UNIVERSAL_DIR}\"\nmkdir -p \"${CREATING_UNIVERSAL_DIR}\"\n\n#\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nxcrun -sdk iphoneos lipo -create -output \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\n#########\n#\n# Added: StackOverflow suggestion to also copy \"include\" files\n#    (untested, but should work OK)\n#\necho \"Fetching headers from ${PUBLIC_HEADERS_FOLDER_PATH}\"\necho \"  (if you embed your library project in another project, you will need to add\"\necho \"   a \"User Search Headers\" build setting of: (NB INCLUDE THE DOUBLE QUOTES BELOW!)\"\necho '        \"$(TARGET_BUILD_DIR)/usr/local/include/\"'\nif [ -d \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\" ]\nthen\nmkdir -p \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\n# * needs to be outside the double quotes?\ncp -r \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"* \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\nfi\n\n\nEXECUTABLE_OUTPUT_DIR=`echo $PROJECT_DIR | sed 's/appbuilder/appbuilder_server/g'`\n\nif [ -f \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" ]\nthen\nmkdir -p \"${EXECUTABLE_OUTPUT_DIR}\"\ncp -fR \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${EXECUTABLE_OUTPUT_DIR}\"\nfi\n\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCC2626513920FC7003D9994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCC2628E13921035003D9994 /* SBJsonParser.m in Sources */,
+				BCC2628F13921035003D9994 /* SBJsonStreamParser.m in Sources */,
+				BCC2629013921035003D9994 /* SBJsonStreamParserAccumulator.m in Sources */,
+				BCC2629113921035003D9994 /* SBJsonStreamParserAdapter.m in Sources */,
+				BCC2629213921035003D9994 /* SBJsonStreamParserState.m in Sources */,
+				BCC2629313921035003D9994 /* SBJsonStreamWriter.m in Sources */,
+				BCC2629413921035003D9994 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				BCC2629513921035003D9994 /* SBJsonStreamWriterState.m in Sources */,
+				BCC2629713921035003D9994 /* SBJsonWriter.m in Sources */,
+				F8D04C40AB8E50C09F7534AE /* SBJsonStreamTokeniser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC1232491391D5CC00131607 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC12324A1391D5CC00131607 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC1232621391D5CC00131607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = "armv7 i386 arm64";
+			};
+			name = Debug;
+		};
+		BC1232631391D5CC00131607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = "armv7 i386 arm64";
+			};
+			name = Release;
+		};
+		BCC2628813920FC7003D9994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DSTROOT = /tmp/sbjson_ios.dst;
+				GCC_PREFIX_HEADER = "sbjson-ios/sbjson-ios-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PUBLIC_HEADERS_FOLDER_PATH = include/SBJson/;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 i386 arm64";
+			};
+			name = Debug;
+		};
+		BCC2628913920FC7003D9994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DSTROOT = /tmp/sbjson_ios.dst;
+				GCC_PREFIX_HEADER = "sbjson-ios/sbjson-ios-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PUBLIC_HEADERS_FOLDER_PATH = include/SBJson/;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 i386 arm64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC1232361391D5CC00131607 /* Build configuration list for PBXProject "SBJson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1232621391D5CC00131607 /* Debug */,
+				BC1232631391D5CC00131607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCC2628713920FC7003D9994 /* Build configuration list for PBXNativeTarget "sbjson-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCC2628813920FC7003D9994 /* Debug */,
+				BCC2628913920FC7003D9994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC1232331391D5CC00131607 /* Project object */;
+}

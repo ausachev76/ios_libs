@@ -1,0 +1,308 @@
+/****************************************************************************
+ *                                                                           *
+ *  Copyright (C) 2014-2015 iBuildApp, Inc. ( http://ibuildapp.com )         *
+ *                                                                           *
+ *  This file is part of iBuildApp.                                          *
+ *                                                                           *
+ *  This Source Code Form is subject to the terms of the iBuildApp License.  *
+ *  You can obtain one at http://ibuildapp.com/license/                      *
+ *                                                                           *
+ ****************************************************************************/
+
+/* --- module PhotoGallery strings --- */
+
+/* Invalid image URL */
+"asha_invalidImageUrlMessage" = "Ошибка загрузки изображения: некорректный URL";
+
+/* Add Comment... */
+"asha_addCommentMessage" = "Добавить комментарий...";
+
+/* Back */
+"asha_backButtonTitle" = "Назад";
+
+/* Comments */
+"asha_commentsPageTitle" = "Комментарии";
+
+/* Confirm Password */
+"asha_confirmPasswordFieldPlaceholder" = "Подтверждение пароля";
+
+/* Create New Account */
+"asha_CreateNewAccount" = "Создать новую учетную запись";
+
+/* Email */
+"asha_emailFieldPlaceholder" = "Email";
+
+/* can't download rss feed */
+"asha_errorLoadingRSSAlertMessage" = "Невозможно загрузить RSS";
+
+/* OK */
+"asha_errorLoadingRSSAlertOkButton" = "OK";
+
+/* error loading */
+"asha_errorLoadingRSSAlertTitle" = "Ошибка загрузки";
+
+/* Can't save the image! */
+"asha_errorSavingPhotoAlertMessage" = "Изображение не сохранено!";
+
+/* OK */
+"asha_errorSavingPhotoAlertOKButtonTitle" = "OK";
+
+/* Error! */
+"asha_errorSavingPhotoAlertTitle" = "Ошибка!";
+
+/* First name */
+"asha_firstNameFieldPlaceholder" = "Имя";
+
+/* I have an account */
+"asha_HaveAnAccount" = "У меня уже есть учетная запись";
+
+/* Last message */
+"asha_lastMessageString" = "Последнее сообщение";
+
+/* Last name */
+"asha_lastNameFieldPlaceholder" = "Фамилия";
+
+/* Liked on Facebook */
+"asha_likedFB" = "Отмечено на Facebook";
+
+/* Login */
+"asha_loginButtonTitle" = "Войти";
+
+/* Please enter a password that at least 4 characters long\n */
+"asha_loginError01" = "Длина пароля должна быть не менее 4 символов\n"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* Please  enter correct email address\n */
+"asha_loginError02" = "Введите корретный email\n"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* The username and password did not match\nour records, please try again */
+"asha_loginError03" = "Имя пользователя и пароль не совпадают\nс нашими данными, попробуйте еще раз"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* OK */
+"asha_loginErrorAlertOkButtonTitle" = "OK";
+
+/* Login with Facebook */
+"asha_loginFacebookButtonTitle" = "Войти, используя Facebook";
+
+/* Cancel */
+"asha_loginFBRequiredCancel" = "Отмена";
+
+/* Log In */
+"asha_loginFBRequiredLogIn" = "Войти";
+
+/* You must be logged in to Facebook to like this item */
+"asha_loginFBRequiredMessage_like" = "Вы должны быть авторизованы на Facebook чтобы отметить эту запись";
+
+/* You must be logged in to Facebook to share this item */
+"asha_loginFBRequiredMessage_share" = "Вы должны быть авторизованы на Facebook чтобы поделиться этой записью";
+
+/* You must be logged in to Facebook */
+"asha_loginFBRequiredMessage_generic" = "Вы должны быть авторизованы на Facebook";
+
+/* Log In Required */
+"asha_loginFBRequiredTitle" = "Необходима авторизация";
+
+/* Login */
+"asha_LoginTitle" = "Войти";
+
+/* Login with Twitter */
+"asha_loginTwitterButtonTitle" = "Войти, используя Twitter";
+
+/* Cancel */
+"asha_loginTwRequiredCancel" = "Отмена";
+
+/* You must be logged in to Twitter to like this item */
+"asha_loginTwRequiredMessage" = "Вы должны быть авторизованы на Facebook чтобы отметить эту запись";
+
+/* Log In Required */
+"asha_loginTwRequiredTitle" = "Необходима авторизация";
+
+/* There are no comments yet */
+"asha_noCommentsLabel" = "Комментариев пока нет";
+
+/* There are no replies yet */
+"asha_noRepliesLabel" = "Ответов пока нет";
+
+/* Of */
+"asha_Of_forTitle" = "из";
+
+/* or */
+"asha_Or" = "или";
+
+/* Password */
+"asha_passwordFieldPlaceholder" = "Пароль";
+
+/* Clear */
+"asha_postClearButtonTitle" = "Очистить";
+
+/* Sending failed. Please try again */
+"asha_postMessageFailedAlertMessage" = "Ошибка отправки. Попробуйте еще раз";
+
+/* OK */
+"asha_postMessageFailedAlertOkButtonTitle" = "OK";
+
+/* Post */
+"asha_postPostButtonTitle" = "Отправить";
+
+/* Profile */
+"asha_profilePageTitle" = "Профиль";
+
+/* Replies */
+"asha_repliesPageTitle" = "Ответы";
+
+/* Failed */
+"asha_SavingPhotoFailedMessage" = "Сохранить не удалось";
+
+/* Saving */
+"asha_SavingPhotoMessage" = "Сохранение";
+
+/* Saved */
+"asha_SavingPhotoSuccessMessage" = "Сохранено";
+
+/* Posted via iBuildApp http://ibuildapp.com. */
+"asha_shareEMailMessageShowLinkAddition" = "Опубликовано через iBuildApp http://ibuildapp.com.";
+
+/* Posted via iBuildApp http://ibuildapp.com. */
+"asha_shareFB&TMessageShowLinkAddition" = "Опубликовано через http://ibuildapp.com.";
+
+
+/* %@ just commented on %@ photo via %@ app:\n\"%@\" */
+"asha_shareFB&TMessageTemplate" = "%@ только что оставил(а) комментарий к фотографии %@, используя приложение %@:\n\"%@\""; // symbols \n and %@ are needed for correct string generation, please don't remove!
+
+/* %@ just commented on %@ photo via %@ app:\n\"%@\".\nDownload the %@ iPhone/Android app:  http://%@/projects.php?action=info&projectid=%@ */
+"asha_shareFB&TMessageTemplate_showLink" = "%@ только что оставил(а) комментарий к фотографии %@, используя приложение %@:\n\"%@\".\nЗагрузите приложение %@ для iPhone/Android:  http://%@/projects.php?action=info&projectid=%@"; // symbols \n and %@ are needed for correct string generation, please don't remove!
+
+
+/* The message has been posted to your Facebook wall. */
+"asha_shareFB&TSuccessAlertMessage" = "Сообщение было опубликовано на Вашей стене Facebook";
+
+/* OK */
+"asha_shareFB&TSuccessAlertTitle" = "OK";
+
+
+/* I just found %@ photo from the %@ iPhone app and thought you'd like it. */
+"asha_shareMessageTemplate" = "Я нашел фотографию %@, используя приложение %@ для iPhone, думаю, тебе понравится."; // symbols \n and %@ are needed for correct string generation, please don't remove!
+
+/* I just found %@ photo from the %@ iPhone app and thought you'd like it.\nDownload the %@ iPhone/Android app:  http://%@/projects.php?action=info&projectid=%@ */
+"asha_shareMessageTemplate_showLink" = "Я нашел фотографию %@, используя приложение %@ для iPhone, думаю, тебе понравится.\nЗагрузите приложение %@ для iPhone/Android: http://%@/projects.php?action=info&projectid=%@"; // symbols \n and %@ are needed for correct string generation, please don't remove!
+
+
+/* Posted via iBuildApp http://ibuildapp.com. */
+"asha_shareSMSMessageShowLinkAddition" = "Опубликовано через iBuildApp http://ibuildapp.com.";
+
+/* Share on Facebook */
+"asha_sharingMessageFacebookTitle" = "Поделиться в Facebook";
+
+/* Post */
+"asha_sharingMessagePostButtonTitle" = "Отправить";
+
+/* Share on Twitter */
+"asha_sharingMessageTwitterTitle" = "Поделиться в Twitter";
+
+
+/* %@ wants to share with you */
+"asha_shareEMailMessageSubject" = "%@ хочет поделиться с Вами"; // symbols %@ are needed for correct string generation, please don't remove!
+
+/* Sign in to an account */
+"asha_SignInTitle" = "Войдите";
+
+/* Sign Up */
+"asha_signupButtonTitle" = "Регистрация";
+
+/* Enter your first name.\n */
+"asha_signUpError01" = "Введите имя.\n"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* Enter your last name.\n */
+"asha_signUpError02" = "Введите фамилию.\n"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* First and Last name match each other. This seems like a spam, please change Last or First name.\n */
+"asha_signUpError03" = "Имя и Фамилия совпадают. Похоже на спам. Пожалуйста, проверьте Имя и Фамилию.\n"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* Please enter correct email address.\n */
+"asha_signUpError04" = "Введите корректный email\n"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* Please enter a password that at least 4 characters long.\n */
+"asha_signUpError05" = "Длина пароля должна быть не менее 4 символов\n"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* Passwords don't match.\n */
+"asha_signUpError06" = "Пароли не совпадают\n"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* This email is in use. Please use another email. */
+"asha_signUpError07" = "Этот email уже используется. Пожалуйста, используйте другой email.";
+
+/* Registration error. */
+"asha_signUpError08" = "Ошибка регистрации";
+
+/* OK */
+"asha_signUpErrorAlertOkButtonTitle" = "OK";
+
+/* Sign Up */
+"asha_signupPageTitle" = "Регистрация";
+
+/* The picture has been saved to your iPhone. */
+"asha_successSavingPhotoAlertMessabe" = "Изображение сохранено";
+
+/* OK */
+"asha_successSavingPhotoAlertOKButtonTitle" = "OK";
+
+/* Connection with Twitter failed! */
+"asha_twitterConnectionFailed" = "Ошибка соединения с Twitter!";
+
+/* The message has not been posted to your Twitter account. */
+"asha_twitterHasNotBeenPosted" = "Сообщение не было опубликовано под Вашей учетной запиcью Twitter.";
+
+/* Twitter duplicate status message! */
+"asha_twitterDuplicateStatusMessage" = "Твит «%@» является дубликатом и не может быть отправлен.";
+
+/* The message has been posted to your Twitter account. */
+"asha_twitterPosted" = "Сообщение было опубликовано под Вашей учетной запиcью Twitter";
+
+/* Photo Gallery */
+"asha_WidgetTitle" = "Фотогалерея";
+
+/* Connection with Facebook failed! */
+"asha_FBFailed" = "Ошибка соединения с Facebook!";
+
+/* The message has not been posted to your Facebook wall. */
+"asha_FBHasNotBeenPosted" = "Сообщение не было опубликовано на Вашей стене Facebook.";
+
+/* Some */
+"asha_shareEMailMessageSubjectPersonPlaceholder" = "Кое-кто";
+
+/* This device not configured to send mail */
+"asha_cannotSendEmailAlertMessage" = "Настройки Email неверны или отсутствуют";
+
+/* OK */
+"asha_cannotSendEmailAlertOkButtonTitle" = "OK";
+
+/* Mail cannot be send */
+"asha_cannotSendEmailAlertTitle" = "Письмо не отправлено";
+
+/* This device not configured to send SMS */
+"asha_cannotSendSMSAlertMessage" = "Настройки СМС неверны или отсутствуют";
+
+/* OK */
+"asha_cannotSendSMSAlertOkButtonTitle" = "OK";
+
+/* SMS cannot be send */
+"asha_cannotSendSMSAlertTitle" = "СМС не отправлено";
+
+/* Error sending email */
+"asha_sendingEmailFailedAlertTitle" = "Письмо не отправлено";
+
+/* OK */
+"asha_sendingMessageFailedAlertOkButtonTitle" = "OK";
+
+/* Error sending sms */
+"asha_sendingSMSFailedAlertMessage" = "Ошибка отправки";
+
+/* Cannot access Twitter Profile */
+"asha_cannotAccessTwitterProfile" = "Учетная запись Twitter не доступна";
+
+/* OK */
+"asha_sendingEmailFailedAlertOkButtonTitle" = "OK";
+
+/* Error sending email */
+"asha_sendingEmailFailedAlertMessage" = "Ошибка отправки";
+
+/* Error loading videos */
+"asha_loginFBRequiredMessage_videos" = "Вы должны быть авторизованы на Facebook, чтобы просматривать видео";

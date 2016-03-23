@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		374F1F071AE68A3000A7AC33 /* IBPDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 374F1F001AE68A3000A7AC33 /* IBPDBManager.m */; };
+		374F1F081AE68A3000A7AC33 /* IBPItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 374F1F021AE68A3000A7AC33 /* IBPItem.m */; };
+		374F1F091AE68A3000A7AC33 /* IBPPayPalConfirmationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 374F1F041AE68A3000A7AC33 /* IBPPayPalConfirmationManager.m */; };
+		374F1F0A1AE68A3000A7AC33 /* IBPPayPalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 374F1F061AE68A3000A7AC33 /* IBPPayPalManager.m */; };
+		37CC390A1AFCB123005B643C /* IBPCartItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CC39091AFCB123005B643C /* IBPCartItem.m */; };
+		37CC390D1AFCB189005B643C /* IBPCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CC390C1AFCB189005B643C /* IBPCart.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		374F1EDA1AE6895200A7AC33 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		374F1EDC1AE6895200A7AC33 /* libIBPayments.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIBPayments.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		374F1EFF1AE68A3000A7AC33 /* IBPDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPDBManager.h; sourceTree = "<group>"; };
+		374F1F001AE68A3000A7AC33 /* IBPDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPDBManager.m; sourceTree = "<group>"; };
+		374F1F011AE68A3000A7AC33 /* IBPItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPItem.h; sourceTree = "<group>"; };
+		374F1F021AE68A3000A7AC33 /* IBPItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPItem.m; sourceTree = "<group>"; };
+		374F1F031AE68A3000A7AC33 /* IBPPayPalConfirmationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPPayPalConfirmationManager.h; sourceTree = "<group>"; };
+		374F1F041AE68A3000A7AC33 /* IBPPayPalConfirmationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPPayPalConfirmationManager.m; sourceTree = "<group>"; };
+		374F1F051AE68A3000A7AC33 /* IBPPayPalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPPayPalManager.h; sourceTree = "<group>"; };
+		374F1F061AE68A3000A7AC33 /* IBPPayPalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPPayPalManager.m; sourceTree = "<group>"; };
+		37CC39081AFCB123005B643C /* IBPCartItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPCartItem.h; sourceTree = "<group>"; };
+		37CC39091AFCB123005B643C /* IBPCartItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPCartItem.m; sourceTree = "<group>"; };
+		37CC390B1AFCB189005B643C /* IBPCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPCart.h; sourceTree = "<group>"; };
+		37CC390C1AFCB189005B643C /* IBPCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPCart.m; sourceTree = "<group>"; };
+		37CC390E1AFCB971005B643C /* IBPPayable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPPayable.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		374F1ED91AE6895200A7AC33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		374F1ED31AE6895200A7AC33 = {
+			isa = PBXGroup;
+			children = (
+				374F1EDE1AE6895200A7AC33 /* IBPayments */,
+				374F1EDD1AE6895200A7AC33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		374F1EDD1AE6895200A7AC33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				374F1EDC1AE6895200A7AC33 /* libIBPayments.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		374F1EDE1AE6895200A7AC33 /* IBPayments */ = {
+			isa = PBXGroup;
+			children = (
+				37CC390E1AFCB971005B643C /* IBPPayable.h */,
+				374F1F011AE68A3000A7AC33 /* IBPItem.h */,
+				374F1F021AE68A3000A7AC33 /* IBPItem.m */,
+				37CC390B1AFCB189005B643C /* IBPCart.h */,
+				37CC390C1AFCB189005B643C /* IBPCart.m */,
+				37CC39081AFCB123005B643C /* IBPCartItem.h */,
+				37CC39091AFCB123005B643C /* IBPCartItem.m */,
+				374F1EFF1AE68A3000A7AC33 /* IBPDBManager.h */,
+				374F1F001AE68A3000A7AC33 /* IBPDBManager.m */,
+				37CE73561AE695E300714D07 /* PayPal */,
+			);
+			path = IBPayments;
+			sourceTree = "<group>";
+		};
+		37CE73561AE695E300714D07 /* PayPal */ = {
+			isa = PBXGroup;
+			children = (
+				374F1F051AE68A3000A7AC33 /* IBPPayPalManager.h */,
+				374F1F061AE68A3000A7AC33 /* IBPPayPalManager.m */,
+				374F1F031AE68A3000A7AC33 /* IBPPayPalConfirmationManager.h */,
+				374F1F041AE68A3000A7AC33 /* IBPPayPalConfirmationManager.m */,
+			);
+			name = PayPal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		374F1EDB1AE6895200A7AC33 /* IBPayments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 374F1EED1AE6895200A7AC33 /* Build configuration list for PBXNativeTarget "IBPayments" */;
+			buildPhases = (
+				374F1ED81AE6895200A7AC33 /* Sources */,
+				374F1ED91AE6895200A7AC33 /* Frameworks */,
+				374F1EDA1AE6895200A7AC33 /* CopyFiles */,
+				3756211F1AE7C5AD00671661 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBPayments;
+			productName = IBPayments;
+			productReference = 374F1EDC1AE6895200A7AC33 /* libIBPayments.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		374F1ED41AE6895200A7AC33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = iBuildApp;
+				TargetAttributes = {
+					374F1EDB1AE6895200A7AC33 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 374F1ED71AE6895200A7AC33 /* Build configuration list for PBXProject "IBPayments" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 374F1ED31AE6895200A7AC33;
+			productRefGroup = 374F1EDD1AE6895200A7AC33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				374F1EDB1AE6895200A7AC33 /* IBPayments */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3756211F1AE7C5AD00671661 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "##########################################\n#\n# c.f. http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n#\n# Version 2.7\n#\n# Latest Change:\n# - Supports iPhone 5 / iPod Touch 5 (uses Apple's workaround to lipo bug)\n#\n# Purpose:\n#   Automatically create a Universal static library for iPhone + iPad + iPhone Simulator from within XCode\n#\n# Author: Adam Martin - http://twitter.com/redglassesapps\n# Based on: original script from Eonil (main changes: Eonil's script WILL NOT WORK in Xcode GUI - it WILL CRASH YOUR COMPUTER)\n#\n\nset -e\nset -o pipefail\n\n#################[ Tests: helps workaround any future bugs in Xcode ]########\n#\nDEBUG_THIS_SCRIPT=\"false\"\n\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\nfi\n\n#####################[ part 1 ]##################\n# First, work out the BASESDK version number (NB: Apple ought to report this, but they hide it)\n#    (incidental: searching for substrings in sh is a nightmare! Sob)\n\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\n# Next, work out if we're in SIM or DEVICE\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n#\n#####################[ end of part 1 ]##################\n\n#####################[ part 2 ]##################\n#\n# IF this is the original invocation, invoke WHATEVER other builds are required\n#\n# Xcode is already building ONE target...\n#\n# ...but this is a LIBRARY, so Apple is wrong to set it to build just one.\n# ...we need to build ALL targets\n# ...we MUST NOT re-build the target that is ALREADY being built: Xcode WILL CRASH YOUR COMPUTER if you try this (infinite recursion!)\n#\n#\n# So: build ONLY the missing platforms/configurations.\n\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n# CRITICAL:\n# Prevent infinite recursion (Xcode sucks)\nexport ALREADYINVOKED=\"true\"\n\necho \"RECURSION: I am the root ... recursing all missing build targets NOW...\"\necho \"RECURSION: ...about to invoke: xcodebuild -configuration \\\"${CONFIGURATION}\\\" -project \\\"${PROJECT_NAME}.xcodeproj\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\" BUILD_DIR=\\\"${BUILD_DIR}\\\" BUILD_ROOT=\\\"${BUILD_ROOT}\\\" SYMROOT=\\\"${SYMROOT}\\\"\n\nxcodebuild -configuration \"${CONFIGURATION}\" -project \"${PROJECT_NAME}.xcodeproj\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\"\n\nACTION=\"build\"\n\n#Merge all platform binaries as a fat binary for each configurations.\n\n# Calculate where the (multiple) built files are coming from:\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\n\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\n\nCREATING_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\necho \"...I will output a universal build to: ${CREATING_UNIVERSAL_DIR}\"\n\n# ... remove the products of previous runs of this script\n#      NB: this directory is ONLY created by this script - it should be safe to delete!\n\n# rm -rf \"${CREATING_UNIVERSAL_DIR}\"\nmkdir -p \"${CREATING_UNIVERSAL_DIR}\"\n\n#\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nxcrun -sdk iphoneos lipo -create -output \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\n#########\n#\n# Added: StackOverflow suggestion to also copy \"include\" files\n#    (untested, but should work OK)\n#\necho \"Fetching headers from ${PUBLIC_HEADERS_FOLDER_PATH}\"\necho \"  (if you embed your library project in another project, you will need to add\"\necho \"   a \"User Search Headers\" build setting of: (NB INCLUDE THE DOUBLE QUOTES BELOW!)\"\necho '        \"$(TARGET_BUILD_DIR)/usr/local/include/\"'\nif [ -d \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\" ]\nthen\nmkdir -p \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\n# * needs to be outside the double quotes?\ncp -r \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"* \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\nfi\n\n\nEXECUTABLE_OUTPUT_DIR=`echo $PROJECT_DIR | sed 's/appbuilder/appbuilder_server/g'`\n\nif [ -f \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" ]\nthen\nmkdir -p \"${EXECUTABLE_OUTPUT_DIR}\"\ncp -fR \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${EXECUTABLE_OUTPUT_DIR}\"\nfi\n\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		374F1ED81AE6895200A7AC33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374F1F081AE68A3000A7AC33 /* IBPItem.m in Sources */,
+				374F1F091AE68A3000A7AC33 /* IBPPayPalConfirmationManager.m in Sources */,
+				374F1F0A1AE68A3000A7AC33 /* IBPPayPalManager.m in Sources */,
+				37CC390A1AFCB123005B643C /* IBPCartItem.m in Sources */,
+				374F1F071AE68A3000A7AC33 /* IBPDBManager.m in Sources */,
+				37CC390D1AFCB189005B643C /* IBPCart.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		374F1EEB1AE6895200A7AC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../iBuildAppLib/include/ ../SQLiteManager/SQLiteManager/ ../PayPalMobile/";
+				VALID_ARCHS = "arm64 armv7 x86_64 i386";
+			};
+			name = Debug;
+		};
+		374F1EEC1AE6895200A7AC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../iBuildAppLib/include/ ../SQLiteManager/SQLiteManager/ ../PayPalMobile/";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 x86_64 i386";
+			};
+			name = Release;
+		};
+		374F1EEE1AE6895200A7AC33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		374F1EEF1AE6895200A7AC33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		374F1ED71AE6895200A7AC33 /* Build configuration list for PBXProject "IBPayments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374F1EEB1AE6895200A7AC33 /* Debug */,
+				374F1EEC1AE6895200A7AC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		374F1EED1AE6895200A7AC33 /* Build configuration list for PBXNativeTarget "IBPayments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				374F1EEE1AE6895200A7AC33 /* Debug */,
+				374F1EEF1AE6895200A7AC33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 374F1ED41AE6895200A7AC33 /* Project object */;
+}

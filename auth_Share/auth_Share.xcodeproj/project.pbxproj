@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37A47A8619DC18F30011CDE1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37A47A8819DC18F30011CDE1 /* Localizable.strings */; };
+		776876F01AAC202000F65D5A /* auth_ShareUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 776876EF1AAC202000F65D5A /* auth_ShareUser.m */; };
+		A91308D8189BA44D0026A36B /* auth_Share.m in Sources */ = {isa = PBXBuildFile; fileRef = A91308D7189BA44D0026A36B /* auth_Share.m */; };
+		A932D13919F512830056216B /* _aSha_FacebookButtonBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A932D13819F512830056216B /* _aSha_FacebookButtonBG@2x.png */; };
+		A932D16F19F512CD0056216B /* _aSha_FacebookButtonBG.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD28518A227AF00EC0C05 /* _aSha_FacebookButtonBG.png */; };
+		A97DD6E018AD018D00BDEB7D /* auth_ShareReplyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A97DD6DF18AD018D00BDEB7D /* auth_ShareReplyVC.m */; };
+		A9BAD28018A2226E00EC0C05 /* auth_ShareLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD27F18A2226E00EC0C05 /* auth_ShareLoginVC.m */; };
+		A9BAD28318A225C300EC0C05 /* auth_ShareLoginEmailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BAD28218A225C300EC0C05 /* auth_ShareLoginEmailVC.m */; };
+		A9BAD29B18A229FA00EC0C05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD29918A229FA00EC0C05 /* InfoPlist.strings */; };
+		A9BAD2A718A22B8100EC0C05 /* _aSha_LoginButtonBG.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD28718A227AF00EC0C05 /* _aSha_LoginButtonBG.png */; };
+		A9BAD2A818A22B8100EC0C05 /* _aSha_LoginButtonBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD28818A227AF00EC0C05 /* _aSha_LoginButtonBG@2x.png */; };
+		A9BAD2A918A22B8100EC0C05 /* _aSha_SignupButtonBG.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD28918A227AF00EC0C05 /* _aSha_SignupButtonBG.png */; };
+		A9BAD2AA18A22B8100EC0C05 /* _aSha_SignupButtonBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD28A18A227AF00EC0C05 /* _aSha_SignupButtonBG@2x.png */; };
+		A9BAD2AB18A22B8100EC0C05 /* _aSha_TwitterButtonBG.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD28B18A227AF00EC0C05 /* _aSha_TwitterButtonBG.png */; };
+		A9BAD2AC18A22B8100EC0C05 /* _aSha_TwitterButtonBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD28C18A227AF00EC0C05 /* _aSha_TwitterButtonBG@2x.png */; };
+		A9BAD2AD18A22B8100EC0C05 /* _aSha_WhiteRound.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD28D18A227AF00EC0C05 /* _aSha_WhiteRound.png */; };
+		A9BAD2AE18A22B8100EC0C05 /* _aSha_WhiteRound@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9BAD28E18A227AF00EC0C05 /* _aSha_WhiteRound@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9BAD2AF18A22BAC00EC0C05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9734A6C189A778600BD547C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9BAD29218A229FA00EC0C05;
+			remoteInfo = aShaResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37A47A8719DC18F30011CDE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		37A47A8B19DC19B90011CDE1 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		37A47A8F19DC1BB40011CDE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		776876EE1AAC202000F65D5A /* auth_ShareUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auth_ShareUser.h; sourceTree = "<group>"; };
+		776876EF1AAC202000F65D5A /* auth_ShareUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = auth_ShareUser.m; sourceTree = "<group>"; };
+		776876F11AAC23B900F65D5A /* auth_ShareDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = auth_ShareDelegate.h; sourceTree = "<group>"; };
+		A91308D6189BA44D0026A36B /* auth_Share.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auth_Share.h; sourceTree = "<group>"; };
+		A91308D7189BA44D0026A36B /* auth_Share.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = auth_Share.m; sourceTree = "<group>"; };
+		A932D13819F512830056216B /* _aSha_FacebookButtonBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_aSha_FacebookButtonBG@2x.png"; sourceTree = "<group>"; };
+		A9734A74189A778600BD547C /* libauth_Share.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libauth_Share.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9734A7B189A778600BD547C /* auth_Share-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "auth_Share-Prefix.pch"; sourceTree = "<group>"; };
+		A97DD6DE18AD018D00BDEB7D /* auth_ShareReplyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auth_ShareReplyVC.h; sourceTree = "<group>"; };
+		A97DD6DF18AD018D00BDEB7D /* auth_ShareReplyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = auth_ShareReplyVC.m; sourceTree = "<group>"; };
+		A9BAD27E18A2226E00EC0C05 /* auth_ShareLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auth_ShareLoginVC.h; sourceTree = "<group>"; };
+		A9BAD27F18A2226E00EC0C05 /* auth_ShareLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = auth_ShareLoginVC.m; sourceTree = "<group>"; };
+		A9BAD28118A225C300EC0C05 /* auth_ShareLoginEmailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auth_ShareLoginEmailVC.h; sourceTree = "<group>"; };
+		A9BAD28218A225C300EC0C05 /* auth_ShareLoginEmailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = auth_ShareLoginEmailVC.m; sourceTree = "<group>"; };
+		A9BAD28518A227AF00EC0C05 /* _aSha_FacebookButtonBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _aSha_FacebookButtonBG.png; sourceTree = "<group>"; };
+		A9BAD28718A227AF00EC0C05 /* _aSha_LoginButtonBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _aSha_LoginButtonBG.png; sourceTree = "<group>"; };
+		A9BAD28818A227AF00EC0C05 /* _aSha_LoginButtonBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_aSha_LoginButtonBG@2x.png"; sourceTree = "<group>"; };
+		A9BAD28918A227AF00EC0C05 /* _aSha_SignupButtonBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _aSha_SignupButtonBG.png; sourceTree = "<group>"; };
+		A9BAD28A18A227AF00EC0C05 /* _aSha_SignupButtonBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_aSha_SignupButtonBG@2x.png"; sourceTree = "<group>"; };
+		A9BAD28B18A227AF00EC0C05 /* _aSha_TwitterButtonBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _aSha_TwitterButtonBG.png; sourceTree = "<group>"; };
+		A9BAD28C18A227AF00EC0C05 /* _aSha_TwitterButtonBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_aSha_TwitterButtonBG@2x.png"; sourceTree = "<group>"; };
+		A9BAD28D18A227AF00EC0C05 /* _aSha_WhiteRound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = _aSha_WhiteRound.png; sourceTree = "<group>"; };
+		A9BAD28E18A227AF00EC0C05 /* _aSha_WhiteRound@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_aSha_WhiteRound@2x.png"; sourceTree = "<group>"; };
+		A9BAD29318A229FA00EC0C05 /* aShaResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aShaResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BAD29818A229FA00EC0C05 /* aShaResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "aShaResources-Info.plist"; sourceTree = "<group>"; };
+		A9BAD29A18A229FA00EC0C05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9BAD29C18A229FA00EC0C05 /* aShaResources-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aShaResources-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9BAD29018A229FA00EC0C05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9734A6B189A778600BD547C = {
+			isa = PBXGroup;
+			children = (
+				A91308D6189BA44D0026A36B /* auth_Share.h */,
+				A91308D7189BA44D0026A36B /* auth_Share.m */,
+				776876F11AAC23B900F65D5A /* auth_ShareDelegate.h */,
+				776876EE1AAC202000F65D5A /* auth_ShareUser.h */,
+				776876EF1AAC202000F65D5A /* auth_ShareUser.m */,
+				A9BAD27E18A2226E00EC0C05 /* auth_ShareLoginVC.h */,
+				A9BAD27F18A2226E00EC0C05 /* auth_ShareLoginVC.m */,
+				A9BAD28118A225C300EC0C05 /* auth_ShareLoginEmailVC.h */,
+				A9BAD28218A225C300EC0C05 /* auth_ShareLoginEmailVC.m */,
+				A97DD6DE18AD018D00BDEB7D /* auth_ShareReplyVC.h */,
+				A97DD6DF18AD018D00BDEB7D /* auth_ShareReplyVC.m */,
+				A9734A7A189A778600BD547C /* Supporting Files */,
+				A9BAD29618A229FA00EC0C05 /* aShaResources */,
+				A9734A75189A778600BD547C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9734A75189A778600BD547C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9734A74189A778600BD547C /* libauth_Share.a */,
+				A9BAD29318A229FA00EC0C05 /* aShaResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9734A7A189A778600BD547C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9734A7B189A778600BD547C /* auth_Share-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "auth&Share";
+			sourceTree = "<group>";
+		};
+		A9BAD28418A227AF00EC0C05 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				A932D13819F512830056216B /* _aSha_FacebookButtonBG@2x.png */,
+				A9BAD28518A227AF00EC0C05 /* _aSha_FacebookButtonBG.png */,
+				A9BAD28718A227AF00EC0C05 /* _aSha_LoginButtonBG.png */,
+				A9BAD28818A227AF00EC0C05 /* _aSha_LoginButtonBG@2x.png */,
+				A9BAD28918A227AF00EC0C05 /* _aSha_SignupButtonBG.png */,
+				A9BAD28A18A227AF00EC0C05 /* _aSha_SignupButtonBG@2x.png */,
+				A9BAD28B18A227AF00EC0C05 /* _aSha_TwitterButtonBG.png */,
+				A9BAD28C18A227AF00EC0C05 /* _aSha_TwitterButtonBG@2x.png */,
+				A9BAD28D18A227AF00EC0C05 /* _aSha_WhiteRound.png */,
+				A9BAD28E18A227AF00EC0C05 /* _aSha_WhiteRound@2x.png */,
+				37A47A8819DC18F30011CDE1 /* Localizable.strings */,
+			);
+			name = resources;
+			path = ../resources;
+			sourceTree = "<group>";
+		};
+		A9BAD29618A229FA00EC0C05 /* aShaResources */ = {
+			isa = PBXGroup;
+			children = (
+				A9BAD28418A227AF00EC0C05 /* resources */,
+				A9BAD29718A229FA00EC0C05 /* Supporting Files */,
+			);
+			path = aShaResources;
+			sourceTree = "<group>";
+		};
+		A9BAD29718A229FA00EC0C05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9BAD29818A229FA00EC0C05 /* aShaResources-Info.plist */,
+				A9BAD29918A229FA00EC0C05 /* InfoPlist.strings */,
+				A9BAD29C18A229FA00EC0C05 /* aShaResources-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9734A73189A778600BD547C /* auth_Share */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9734A97189A778700BD547C /* Build configuration list for PBXNativeTarget "auth_Share" */;
+			buildPhases = (
+				A9734A70189A778600BD547C /* Sources */,
+				A91308DA189BB7380026A36B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9BAD2B018A22BAC00EC0C05 /* PBXTargetDependency */,
+			);
+			name = auth_Share;
+			productName = "auth&Share";
+			productReference = A9734A74189A778600BD547C /* libauth_Share.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A9BAD29218A229FA00EC0C05 /* aShaResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BAD29D18A229FA00EC0C05 /* Build configuration list for PBXNativeTarget "aShaResources" */;
+			buildPhases = (
+				A9BAD28F18A229FA00EC0C05 /* Sources */,
+				A9BAD29018A229FA00EC0C05 /* Frameworks */,
+				A9BAD29118A229FA00EC0C05 /* Resources */,
+				59AC1433192E2F75001DDAFA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aShaResources;
+			productName = aShaResources;
+			productReference = A9BAD29318A229FA00EC0C05 /* aShaResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9734A6C189A778600BD547C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "iBuildApp Developer";
+			};
+			buildConfigurationList = A9734A6F189A778600BD547C /* Build configuration list for PBXProject "auth_Share" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+				Base,
+			);
+			mainGroup = A9734A6B189A778600BD547C;
+			productRefGroup = A9734A75189A778600BD547C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9734A73189A778600BD547C /* auth_Share */,
+				A9BAD29218A229FA00EC0C05 /* aShaResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9BAD29118A229FA00EC0C05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A932D16F19F512CD0056216B /* _aSha_FacebookButtonBG.png in Resources */,
+				A932D13919F512830056216B /* _aSha_FacebookButtonBG@2x.png in Resources */,
+				37A47A8619DC18F30011CDE1 /* Localizable.strings in Resources */,
+				A9BAD2A718A22B8100EC0C05 /* _aSha_LoginButtonBG.png in Resources */,
+				A9BAD2A818A22B8100EC0C05 /* _aSha_LoginButtonBG@2x.png in Resources */,
+				A9BAD2A918A22B8100EC0C05 /* _aSha_SignupButtonBG.png in Resources */,
+				A9BAD2AA18A22B8100EC0C05 /* _aSha_SignupButtonBG@2x.png in Resources */,
+				A9BAD2AB18A22B8100EC0C05 /* _aSha_TwitterButtonBG.png in Resources */,
+				A9BAD2AC18A22B8100EC0C05 /* _aSha_TwitterButtonBG@2x.png in Resources */,
+				A9BAD2AD18A22B8100EC0C05 /* _aSha_WhiteRound.png in Resources */,
+				A9BAD2AE18A22B8100EC0C05 /* _aSha_WhiteRound@2x.png in Resources */,
+				A9BAD29B18A229FA00EC0C05 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59AC1433192E2F75001DDAFA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "cp -fR \"$CODESIGNING_FOLDER_PATH\" `echo $PROJECT_DIR | sed 's/appbuilder/appbuilder_server/g'`";
+		};
+		A91308DA189BB7380026A36B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "##########################################\n#\n# c.f. http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n#\n# Version 2.7\n#\n# Latest Change:\n# - Supports iPhone 5 / iPod Touch 5 (uses Apple's workaround to lipo bug)\n#\n# Purpose:\n#   Automatically create a Universal static library for iPhone + iPad + iPhone Simulator from within XCode\n#\n# Author: Adam Martin - http://twitter.com/redglassesapps\n# Based on: original script from Eonil (main changes: Eonil's script WILL NOT WORK in Xcode GUI - it WILL CRASH YOUR COMPUTER)\n#\n\nset -e\nset -o pipefail\n\n#################[ Tests: helps workaround any future bugs in Xcode ]########\n#\nDEBUG_THIS_SCRIPT=\"false\"\n\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\nfi\n\n#####################[ part 1 ]##################\n# First, work out the BASESDK version number (NB: Apple ought to report this, but they hide it)\n#    (incidental: searching for substrings in sh is a nightmare! Sob)\n\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '.\\{3\\}$')\n\n# Next, work out if we're in SIM or DEVICE\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n#\n#####################[ end of part 1 ]##################\n\n#####################[ part 2 ]##################\n#\n# IF this is the original invocation, invoke WHATEVER other builds are required\n#\n# Xcode is already building ONE target...\n#\n# ...but this is a LIBRARY, so Apple is wrong to set it to build just one.\n# ...we need to build ALL targets\n# ...we MUST NOT re-build the target that is ALREADY being built: Xcode WILL CRASH YOUR COMPUTER if you try this (infinite recursion!)\n#\n#\n# So: build ONLY the missing platforms/configurations.\n\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n# CRITICAL:\n# Prevent infinite recursion (Xcode sucks)\nexport ALREADYINVOKED=\"true\"\n\necho \"RECURSION: I am the root ... recursing all missing build targets NOW...\"\necho \"RECURSION: ...about to invoke: xcodebuild -configuration \\\"${CONFIGURATION}\\\" -project \\\"${PROJECT_NAME}.xcodeproj\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\" BUILD_DIR=\\\"${BUILD_DIR}\\\" BUILD_ROOT=\\\"${BUILD_ROOT}\\\" SYMROOT=\\\"${SYMROOT}\\\"\n\nxcodebuild -configuration \"${CONFIGURATION}\" -project \"${PROJECT_NAME}.xcodeproj\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\"\n\nACTION=\"build\"\n\n#Merge all platform binaries as a fat binary for each configurations.\n\n# Calculate where the (multiple) built files are coming from:\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\n\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\n\nCREATING_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\necho \"...I will output a universal build to: ${CREATING_UNIVERSAL_DIR}\"\n\n# ... remove the products of previous runs of this script\n#      NB: this directory is ONLY created by this script - it should be safe to delete!\n\n# rm -rf \"${CREATING_UNIVERSAL_DIR}\"\nmkdir -p \"${CREATING_UNIVERSAL_DIR}\"\n\n#\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nxcrun -sdk iphoneos lipo -create -output \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\n#########\n#\n# Added: StackOverflow suggestion to also copy \"include\" files\n#    (untested, but should work OK)\n#\necho \"Fetching headers from ${PUBLIC_HEADERS_FOLDER_PATH}\"\necho \"  (if you embed your library project in another project, you will need to add\"\necho \"   a \"User Search Headers\" build setting of: (NB INCLUDE THE DOUBLE QUOTES BELOW!)\"\necho '        \"$(TARGET_BUILD_DIR)/usr/local/include/\"'\nif [ -d \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\" ]\nthen\nmkdir -p \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\n# * needs to be outside the double quotes?\ncp -r \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"* \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\nfi\n\n\nEXECUTABLE_OUTPUT_DIR=`echo $PROJECT_DIR | sed 's/appbuilder/appbuilder_server/g'`\n\nif [ -f \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" ]\nthen\nmkdir -p \"${EXECUTABLE_OUTPUT_DIR}\"\ncp -fR \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${EXECUTABLE_OUTPUT_DIR}\"\nfi\n\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9734A70189A778600BD547C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BAD28018A2226E00EC0C05 /* auth_ShareLoginVC.m in Sources */,
+				776876F01AAC202000F65D5A /* auth_ShareUser.m in Sources */,
+				A91308D8189BA44D0026A36B /* auth_Share.m in Sources */,
+				A97DD6E018AD018D00BDEB7D /* auth_ShareReplyVC.m in Sources */,
+				A9BAD28318A225C300EC0C05 /* auth_ShareLoginEmailVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BAD28F18A229FA00EC0C05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9BAD2B018A22BAC00EC0C05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9BAD29218A229FA00EC0C05 /* aShaResources */;
+			targetProxy = A9BAD2AF18A22BAC00EC0C05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37A47A8819DC18F30011CDE1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37A47A8719DC18F30011CDE1 /* en */,
+				37A47A8B19DC19B90011CDE1 /* ru */,
+				37A47A8F19DC1BB40011CDE1 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		A9BAD29918A229FA00EC0C05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9BAD29A18A229FA00EC0C05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9734A95189A778700BD547C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					../,
+					../FacebookSDK/,
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../FHSTwitterEngine/FHSTwitterEngine/ ../SBJson/src/main/objc/ ../MBProgressHUD/ ../FHSTwitterEngine/FHSTwitterEngine/OAuthConsumer/ ../iBuildAppLib/include/ ../Toolbox/";
+				VALID_ARCHS = "armv7 i386 arm64";
+			};
+			name = Debug;
+		};
+		A9734A96189A778700BD547C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					../,
+					../FacebookSDK/,
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../FHSTwitterEngine/FHSTwitterEngine/ ../SBJson/src/main/objc/ ../MBProgressHUD/ ../FHSTwitterEngine/FHSTwitterEngine/OAuthConsumer/ ../iBuildAppLib/include/ ../Toolbox/";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 i386 arm64";
+			};
+			name = Release;
+		};
+		A9734A98189A778700BD547C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DSTROOT = /tmp/auth_Share.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "auth_Share-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = auth_Share;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 i386 arm64";
+			};
+			name = Debug;
+		};
+		A9734A99189A778700BD547C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DSTROOT = /tmp/auth_Share.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "auth_Share-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = auth_Share;
+				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 i386 arm64";
+			};
+			name = Release;
+		};
+		A9BAD29E18A229FA00EC0C05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aShaResources/aShaResources-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "aShaResources/aShaResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A9BAD29F18A229FA00EC0C05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "aShaResources/aShaResources-Prefix.pch";
+				INFOPLIST_FILE = "aShaResources/aShaResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9734A6F189A778600BD547C /* Build configuration list for PBXProject "auth_Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9734A95189A778700BD547C /* Debug */,
+				A9734A96189A778700BD547C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9734A97189A778700BD547C /* Build configuration list for PBXNativeTarget "auth_Share" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9734A98189A778700BD547C /* Debug */,
+				A9734A99189A778700BD547C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BAD29D18A229FA00EC0C05 /* Build configuration list for PBXNativeTarget "aShaResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BAD29E18A229FA00EC0C05 /* Debug */,
+				A9BAD29F18A229FA00EC0C05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9734A6C189A778600BD547C /* Project object */;
+}

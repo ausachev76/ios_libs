@@ -1,0 +1,308 @@
+/****************************************************************************
+ *                                                                           *
+ *  Copyright (C) 2014-2015 iBuildApp, Inc. ( http://ibuildapp.com )         *
+ *                                                                           *
+ *  This file is part of iBuildApp.                                          *
+ *                                                                           *
+ *  This Source Code Form is subject to the terms of the iBuildApp License.  *
+ *  You can obtain one at http://ibuildapp.com/license/                      *
+ *                                                                           *
+ ****************************************************************************/
+
+/* --- module PhotoGallery strings --- */
+
+/* Invalid image URL */
+"asha_invalidImageUrlMessage" = "Invalid image URL";
+
+/* Add Comment... */
+"asha_addCommentMessage" = "Add Comment...";
+
+/* Back */
+"asha_backButtonTitle" = "Back";
+
+/* Comments */
+"asha_commentsPageTitle" = "Comments";
+
+/* Confirm Password */
+"asha_confirmPasswordFieldPlaceholder" = "Confirm Password";
+
+/* Create New Account */
+"asha_CreateNewAccount" = "Create New Account";
+
+/* Email */
+"asha_emailFieldPlaceholder" = "Email";
+
+/* can't download rss feed */
+"asha_errorLoadingRSSAlertMessage" = "can't download rss feed";
+
+/* OK */
+"asha_errorLoadingRSSAlertOkButton" = "OK";
+
+/* error loading */
+"asha_errorLoadingRSSAlertTitle" = "error loading";
+
+/* Can't save the image! */
+"asha_errorSavingPhotoAlertMessage" = "Can't save the image!";
+
+/* OK */
+"asha_errorSavingPhotoAlertOKButtonTitle" = "OK";
+
+/* Error! */
+"asha_errorSavingPhotoAlertTitle" = "Error!";
+
+/* First name */
+"asha_firstNameFieldPlaceholder" = "First name";
+
+/* I have an account */
+"asha_HaveAnAccount" = "I have an account";
+
+/* Last message */
+"asha_lastMessageString" = "Last message";
+
+/* Last name */
+"asha_lastNameFieldPlaceholder" = "Last name";
+
+/* Liked on Facebook */
+"asha_likedFB" = "Liked on Facebook";
+
+/* Login */
+"asha_loginButtonTitle" = "Login";
+
+/* Please enter a password that at least 4 characters long\n */
+"asha_loginError01" = "Please enter a password that at least 4 characters long\n"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* Please  enter correct email address\n */
+"asha_loginError02" = "Please  enter correct email address\n"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* The username and password did not match\nour records, please try again */
+"asha_loginError03" = "The username and password did not match\nour records, please try again"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* OK */
+"asha_loginErrorAlertOkButtonTitle" = "OK";
+
+/* Login with Facebook */
+"asha_loginFacebookButtonTitle" = "Login with Facebook";
+
+/* Cancel */
+"asha_loginFBRequiredCancel" = "Cancel";
+
+/* Log In */
+"asha_loginFBRequiredLogIn" = "Log In";
+
+/* You must be logged in to Facebook to like this item */
+"asha_loginFBRequiredMessage_like" = "You must be logged in to Facebook to like this item";
+
+/* You must be logged in to Facebook to share this item */
+"asha_loginFBRequiredMessage_share" = "You must be logged in to Facebook to share this item";
+
+/* You must be logged in to Facebook */
+"asha_loginFBRequiredMessage_generic" = "You must be logged in to Facebook";
+
+/* Log In Required */
+"asha_loginFBRequiredTitle" = "Log In Required";
+
+/* Login */
+"asha_LoginTitle" = "Login";
+
+/* Login with Twitter */
+"asha_loginTwitterButtonTitle" = "Login with Twitter";
+
+/* Cancel */
+"asha_loginTwRequiredCancel" = "Cancel";
+
+/* You must be logged in to Twitter to like this item */
+"asha_loginTwRequiredMessage" = "You must be logged in to Twitter to like this item";
+
+/* Log In Required */
+"asha_loginTwRequiredTitle" = "Log In Required";
+
+/* There are no comments yet */
+"asha_noCommentsLabel" = "There are no comments yet";
+
+/* There are no replies yet */
+"asha_noRepliesLabel" = "There are no replies yet";
+
+/* Of */
+"asha_Of_forTitle" = "of";
+
+/* or */
+"asha_Or" = "or";
+
+/* Password */
+"asha_passwordFieldPlaceholder" = "Password";
+
+/* Clear */
+"asha_postClearButtonTitle" = "Clear";
+
+/* Sending failed. Please try again */
+"asha_postMessageFailedAlertMessage" = "Sending failed. Please try again";
+
+/* OK */
+"asha_postMessageFailedAlertOkButtonTitle" = "OK";
+
+/* Post */
+"asha_postPostButtonTitle" = "Post";
+
+/* Profile */
+"asha_profilePageTitle" = "Profile";
+
+/* Replies */
+"asha_repliesPageTitle" = "Replies";
+
+/* Failed */
+"asha_SavingPhotoFailedMessage" = "Failed";
+
+/* Saving */
+"asha_SavingPhotoMessage" = "Saving";
+
+/* Saved */
+"asha_SavingPhotoSuccessMessage" = "Saved";
+
+/* Posted via iBuildApp http://ibuildapp.com. */
+"asha_shareEMailMessageShowLinkAddition" = "Posted via iBuildApp http://ibuildapp.com.";
+
+/* Posted via iBuildApp http://ibuildapp.com. */
+"asha_shareFB&TMessageShowLinkAddition" = "Posted via iBuildApp http://ibuildapp.com.";
+
+
+/* %@ just commented on %@ photo via %@ app:\n\"%@\". */
+"asha_shareFB&TMessageTemplate" = "%@ just commented on %@ photo via %@ app:\n\"%@\""; // symbols \n and %@ are needed for correct string generation, please don't remove!
+
+/* %@ just commented on %@ photo via %@ app:\n\"%@\".\nDownload the %@ iPhone/Android app:  http://%@/projects.php?action=info&projectid=%@ */
+"asha_shareFB&TMessageTemplate_showLink" = "%@ just commented on %@ photo via %@ app:\n\"%@\".\nDownload the %@ iPhone/Android app:  http://%@/projects.php?action=info&projectid=%@"; // symbols \n and %@ are needed for correct string generation, please don't remove!
+
+
+/* The message has been posted to your Facebook wall. */
+"asha_shareFB&TSuccessAlertMessage" = "The message has been posted to your Facebook wall.";
+
+/* OK */
+"asha_shareFB&TSuccessAlertTitle" = "OK";
+
+
+/* I just found %@ photo from the %@ iPhone app and thought you'd like it. */
+"asha_shareMessageTemplate" = "I just found %@ photo from the %@ iPhone app and thought you'd like it."; // symbols \n and %@ are needed for correct string generation, please don't remove!
+
+/* I just found %@ photo from the %@ iPhone app and thought you'd like it.\nDownload the %@ iPhone/Android app:  http://%@/projects.php?action=info&projectid=%@ */
+"asha_shareMessageTemplate_showLink" = "I just found %@ photo from the %@ iPhone app and thought you'd like it.\nDownload the %@ iPhone/Android app:  http://%@/projects.php?action=info&projectid=%@"; // symbols \n and %@ are needed for correct string generation, please don't remove!
+
+
+/* Posted via iBuildApp http://ibuildapp.com. */
+"asha_shareSMSMessageShowLinkAddition" = "Posted via iBuildApp http://ibuildapp.com.";
+
+/* Share on Facebook */
+"asha_sharingMessageFacebookTitle" = "Share on Facebook";
+
+/* Post */
+"asha_sharingMessagePostButtonTitle" = "Post";
+
+/* Share on Twitter */
+"asha_sharingMessageTwitterTitle" = "Share on Twitter";
+
+
+/* %@ wants to share with you */
+"asha_shareEMailMessageSubject" = "%@ wants to share with you"; // symbols %@ are needed for correct string generation, please don't remove!
+
+/* Sign in to an account */
+"asha_SignInTitle" = "Sign in to an account";
+
+/* Sign Up */
+"asha_signupButtonTitle" = "Sign Up";
+
+/* Enter your first name.\n */
+"asha_signUpError01" = "Enter your first name.\n"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* Enter your last name.\n */
+"asha_signUpError02" = "Enter your last name.\n"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* First and Last name match each other. This seems like a spam, please change Last or First name.\n */
+"asha_signUpError03" = "First and Last name match each other. This seems like a spam, please change Last or First name.\n"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* Please enter correct email address.\n */
+"asha_signUpError04" = "Please enter correct email address.\n"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* Please enter a password that at least 4 characters long.\n */
+"asha_signUpError05" = "Please enter a password that at least 4 characters long.\n"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* Passwords don't match.\n */
+"asha_signUpError06" = "Passwords don't match.\n"; // symbols \n are needed for correct string generation, please don't remove!
+
+/* This email is in use. Please use another email. */
+"asha_signUpError07" = "This email is in use. Please use another email.";
+
+/* Registration error. */
+"asha_signUpError08" = "Registration error.";
+
+/* OK */
+"asha_signUpErrorAlertOkButtonTitle" = "OK";
+
+/* Sign Up */
+"asha_signupPageTitle" = "Sign Up";
+
+/* The picture has been saved to your iPhone. */
+"asha_successSavingPhotoAlertMessabe" = "The picture has been saved to your iPhone.";
+
+/* OK */
+"asha_successSavingPhotoAlertOKButtonTitle" = "OK";
+
+/* Connection with Twitter failed! */
+"asha_twitterConnectionFailed" = "Connection with Twitter failed!";
+
+/* Twitter duplicate status message! */
+"asha_twitterDuplicateStatusMessage" = "Duplicate message «%@» could not be posted.";
+
+/* The message has been posted to your Twitter account. */
+"asha_twitterPosted" = "The message has been posted to your Twitter account.";
+
+/* The message has not been posted to your Twitter account. */
+"asha_twitterHasNotBeenPosted" = "The message hasn't been posted to your Twitter account.";
+
+/* Photo Gallery */
+"asha_WidgetTitle" = "Photo Gallery";
+
+/* Connection with Facebook failed! */
+"asha_FBFailed" = "Connection with Facebook failed!";
+
+/* The message has not been posted to your Facebook wall. */
+"asha_FBHasNotBeenPosted" = "The message has not been posted to your Facebook wall.";
+
+/* Some */
+"asha_shareEMailMessageSubjectPersonPlaceholder" = "Some";
+
+/* This device not configured to send mail */
+"asha_cannotSendEmailAlertMessage" = "This device not configured to send mail";
+
+/* OK */
+"asha_cannotSendEmailAlertOkButtonTitle" = "OK";
+
+/* Mail cannot be send */
+"asha_cannotSendEmailAlertTitle" = "Mail cannot be sent";
+
+/* This device not configured to send SMS */
+"asha_cannotSendSMSAlertMessage" = "This device not configured to send SMS";
+
+/* OK */
+"asha_cannotSendSMSAlertOkButtonTitle" = "OK";
+
+/* SMS cannot be send */
+"asha_cannotSendSMSAlertTitle" = "SMS cannot be sent";
+
+/* Error sending email */
+"asha_sendingEmailFailedAlertTitle" = "Error sending email";
+
+/* OK */
+"asha_sendingMessageFailedAlertOkButtonTitle" = "OK";
+
+/* Error sending sms */
+"asha_sendingSMSFailedAlertMessage" = "Error sending sms";
+
+/* Cannot access Twitter Profile */
+"asha_cannotAccessTwitterProfile" = "Cannot access Twitter Profile";
+
+/* OK */
+"asha_sendingEmailFailedAlertOkButtonTitle" = "OK";
+
+/* Error sending email */
+"asha_sendingEmailFailedAlertMessage" = "Error sending email";
+
+/* Error loading videos */
+"asha_loginFBRequiredMessage_videos" = "You must be logged in to Facebook to access these videos";

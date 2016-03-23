@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'toolbox' target in the 'toolbox' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+//  #import "UINavigationItem+iOS7Spacing.h"
+#endif

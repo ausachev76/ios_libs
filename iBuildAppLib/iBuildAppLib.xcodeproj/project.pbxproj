@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37001B6C1CA3C45D00EA5386 /* NRGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37001B6B1CA3C45D00EA5386 /* NRGridViewController.m */; };
 		371156491C9970BE00DAE897 /* IBURLLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 371156481C9970BE00DAE897 /* IBURLLoader.m */; };
 		3711564B1C99717A00DAE897 /* reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3711564A1C99717A00DAE897 /* reachability.m */; };
 		3711565B1C99759900DAE897 /* NRLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 371156581C99759900DAE897 /* NRLabel.m */; };
@@ -74,6 +75,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		37001B6B1CA3C45D00EA5386 /* NRGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRGridViewController.m; sourceTree = "<group>"; };
+		37001B6D1CA3C46A00EA5386 /* NRGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRGridViewController.h; sourceTree = "<group>"; };
 		371156471C9970B200DAE897 /* IBURLLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBURLLoader.h; sourceTree = "<group>"; };
 		371156481C9970BE00DAE897 /* IBURLLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBURLLoader.m; sourceTree = "<group>"; };
 		3711564A1C99717A00DAE897 /* reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reachability.m; sourceTree = "<group>"; };
@@ -209,6 +212,7 @@
 		5E14C64B1C9173A800FDC937 /* include */ = {
 			isa = PBXGroup;
 			children = (
+				37001B6D1CA3C46A00EA5386 /* NRGridViewController.h */,
 				37EB86661CA270A500881B81 /* scrollwidget.h */,
 				37EB86671CA270A500881B81 /* urlimagedictionary.h */,
 				37EB86681CA270A500881B81 /* webdatadictionary.h */,
@@ -273,6 +277,7 @@
 		5E14C64E1C9173A800FDC937 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				37001B6B1CA3C45D00EA5386 /* NRGridViewController.m */,
 				37EB866A1CA270B800881B81 /* scrollwidget.m */,
 				37EB866B1CA270B800881B81 /* urlimagedictionary.m */,
 				37EB866C1CA270B800881B81 /* webdatadictionary.m */,
@@ -452,6 +457,7 @@
 				37EB865B1CA26F7E00881B81 /* customgridcell.m in Sources */,
 				37EB86621CA26FEC00881B81 /* WidgetsInfo.m in Sources */,
 				37E51CE91CA1882200122F2E /* labelwidget.m in Sources */,
+				37001B6C1CA3C45D00EA5386 /* NRGridViewController.m in Sources */,
 				37E51CDA1CA1862400122F2E /* toolbar.m in Sources */,
 				37EB86591CA26F4700881B81 /* thumbnailarray.m in Sources */,
 				37E51CED1CA1889800122F2E /* UINavigationBar+backgroundImage.m in Sources */,

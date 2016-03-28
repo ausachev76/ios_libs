@@ -60,6 +60,7 @@
 		37EB866F1CA270B800881B81 /* urlimagedictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EB866B1CA270B800881B81 /* urlimagedictionary.m */; };
 		37EB86701CA270B800881B81 /* webdatadictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EB866C1CA270B800881B81 /* webdatadictionary.m */; };
 		37EB86711CA270B800881B81 /* webdataitem+image.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EB866D1CA270B800881B81 /* webdataitem+image.m */; };
+		37EC30961CA9150A00BB196A /* iphviewcontrollerlist.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EC30951CA9150A00BB196A /* iphviewcontrollerlist.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -187,6 +188,8 @@
 		37EB866B1CA270B800881B81 /* urlimagedictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = urlimagedictionary.m; sourceTree = "<group>"; };
 		37EB866C1CA270B800881B81 /* webdatadictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webdatadictionary.m; sourceTree = "<group>"; };
 		37EB866D1CA270B800881B81 /* webdataitem+image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "webdataitem+image.m"; sourceTree = "<group>"; };
+		37EC30941CA914F700BB196A /* iphviewcontrollerlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iphviewcontrollerlist.h; sourceTree = "<group>"; };
+		37EC30951CA9150A00BB196A /* iphviewcontrollerlist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iphviewcontrollerlist.m; sourceTree = "<group>"; };
 		5ED6C5701C916B96009CA944 /* libiBuildAppLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiBuildAppLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -212,64 +215,65 @@
 		5E14C64B1C9173A800FDC937 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				37001B6D1CA3C46A00EA5386 /* NRGridViewController.h */,
-				37EB86661CA270A500881B81 /* scrollwidget.h */,
-				37EB86671CA270A500881B81 /* urlimagedictionary.h */,
-				37EB86681CA270A500881B81 /* webdatadictionary.h */,
-				37EB86691CA270A500881B81 /* webdataitem+image.h */,
-				37EB86651CA2702A00881B81 /* textfieldwidget.h */,
-				37EB865D1CA26FDA00881B81 /* SQLiteManager+DefaultManager.h */,
-				37EB865E1CA26FDA00881B81 /* WidgetsInfo.h */,
-				37EB865C1CA26F8A00881B81 /* customgridcell.h */,
-				37EB86541CA26F3200881B81 /* downloadmanager.h */,
-				37EB86551CA26F3200881B81 /* thumbnailarray.h */,
-				37EB86521CA26ECA00881B81 /* gradientselection.h */,
-				37EB86531CA26ECA00881B81 /* NRGridConstants.h */,
-				37EB864D1CA26E7200881B81 /* NRGridViewCell.h */,
-				37EB864C1CA26E2300881B81 /* NRGridViewDelegate.h */,
-				37EB86491CA26DED00881B81 /* UIView+corners.h */,
-				37EB86481CA26DBD00881B81 /* NRGridViewDataSource.h */,
-				37EB86471CA26D9200881B81 /* widgettaphandler.h */,
-				37EB86421CA26D2600881B81 /* NRGridView.h */,
-				37EB86411CA26D0200881B81 /* widgetbuilder.h */,
-				37E51D111CA199DD00122F2E /* fontregistry.h */,
+				37E31BFD1C9F09FD0096BE74 /* appbuilderappconfig.h */,
 				37E51D0C1CA1996500122F2E /* boxlayout.h */,
+				37E51CFC1CA1973E00122F2E /* buttonwidget.h */,
+				37EB865C1CA26F8A00881B81 /* customgridcell.h */,
+				37E51C231CA135B700122F2E /* downloadindicator.h */,
+				37EB86541CA26F3200881B81 /* downloadmanager.h */,
+				37E51D111CA199DD00122F2E /* fontregistry.h */,
+				37EB86521CA26ECA00881B81 /* gradientselection.h */,
 				37E51D081CA1991800122F2E /* gridwidget.h */,
 				37E51D091CA1991800122F2E /* hboxlayout.h */,
-				37E51D0A1CA1991800122F2E /* textwidget.h */,
-				37E51D0B1CA1991800122F2E /* vboxlayout.h */,
-				37E51CFD1CA1984000122F2E /* xmlwidgetparser.h */,
-				37E51CFC1CA1973E00122F2E /* buttonwidget.h */,
-				37E51CF91CA18AFB00122F2E /* IBSideBarWidgetAction.h */,
-				37E51CF41CA189A700122F2E /* IBSideBarTableViewCell.h */,
 				37E51CF21CA1894700122F2E /* httpurlresponse_extesion.h */,
-				37E51CF31CA1894700122F2E /* thumbnailcache.h */,
-				37E51CEB1CA1888500122F2E /* UINavigationBar+backgroundImage.h */,
-				37E51CEA1CA1882E00122F2E /* labelwidget.h */,
-				37E51CE51CA187B600122F2E /* SDCachedURLResponse.h */,
-				37E51CE21CA1874F00122F2E /* SDURLCache.h */,
-				37E51CE11CA186C200122F2E /* twitterid.h */,
-				37E51CDC1CA1866100122F2E /* widget.h */,
-				37E51CDB1CA1863700122F2E /* toolbar.h */,
-				37E51C291CA1364000122F2E /* notifications.h */,
-				37E51C281CA135F900122F2E /* urlloader.h */,
-				37E51C231CA135B700122F2E /* downloadindicator.h */,
-				37E51C201CA1356700122F2E /* urlimageview.h */,
-				37E51C1A1CA134E700122F2E /* uiwidgets.h */,
-				37E51C121CA1345800122F2E /* IBSideBarVC.h */,
-				37E51C0E1CA133F800122F2E /* IBSideBarActionListVC.h */,
 				37E51C0B1CA133C600122F2E /* IBSideBarAction.h */,
+				37E51C0E1CA133F800122F2E /* IBSideBarActionListVC.h */,
 				37E51C081CA1333500122F2E /* IBSideBarModuleAction.h */,
-				37E31BFD1C9F09FD0096BE74 /* appbuilderappconfig.h */,
+				37E51CF41CA189A700122F2E /* IBSideBarTableViewCell.h */,
+				37E51C121CA1345800122F2E /* IBSideBarVC.h */,
+				37E51CF91CA18AFB00122F2E /* IBSideBarWidgetAction.h */,
 				371156471C9970B200DAE897 /* IBURLLoader.h */,
 				371156711C99782300DAE897 /* iphnavbardata.h */,
+				37EC30941CA914F700BB196A /* iphviewcontrollerlist.h */,
+				37E51CEA1CA1882E00122F2E /* labelwidget.h */,
 				371156761C9978B000DAE897 /* navigationbar.h */,
+				37E51C291CA1364000122F2E /* notifications.h */,
+				37EB86531CA26ECA00881B81 /* NRGridConstants.h */,
+				37EB86421CA26D2600881B81 /* NRGridView.h */,
+				37EB864D1CA26E7200881B81 /* NRGridViewCell.h */,
+				37001B6D1CA3C46A00EA5386 /* NRGridViewController.h */,
+				37EB86481CA26DBD00881B81 /* NRGridViewDataSource.h */,
+				37EB864C1CA26E2300881B81 /* NRGridViewDelegate.h */,
 				371156551C99758C00DAE897 /* NRLabel.h */,
 				3711564C1C99718400DAE897 /* reachability.h */,
+				37EB86661CA270A500881B81 /* scrollwidget.h */,
+				37E51CE51CA187B600122F2E /* SDCachedURLResponse.h */,
+				37E51CE21CA1874F00122F2E /* SDURLCache.h */,
+				37EB865D1CA26FDA00881B81 /* SQLiteManager+DefaultManager.h */,
+				37EB86651CA2702A00881B81 /* textfieldwidget.h */,
+				37E51D0A1CA1991800122F2E /* textwidget.h */,
+				37EB86551CA26F3200881B81 /* thumbnailarray.h */,
+				37E51CF31CA1894700122F2E /* thumbnailcache.h */,
+				37E51CDB1CA1863700122F2E /* toolbar.h */,
+				37E51CE11CA186C200122F2E /* twitterid.h */,
 				3711570F1C99A71700DAE897 /* uiboxlayout.h */,
 				371157071C99A63600DAE897 /* uihboxlayout.h */,
+				37E51CEB1CA1888500122F2E /* UINavigationBar+backgroundImage.h */,
 				37E26ED81C9A99B1003766E1 /* uivboxlayout.h */,
+				37EB86491CA26DED00881B81 /* UIView+corners.h */,
+				37E51C1A1CA134E700122F2E /* uiwidgets.h */,
+				37EB86671CA270A500881B81 /* urlimagedictionary.h */,
+				37E51C201CA1356700122F2E /* urlimageview.h */,
+				37E51C281CA135F900122F2E /* urlloader.h */,
 				371156ED1C99993800DAE897 /* userconfig.h */,
+				37E51D0B1CA1991800122F2E /* vboxlayout.h */,
+				37EB86681CA270A500881B81 /* webdatadictionary.h */,
+				37EB86691CA270A500881B81 /* webdataitem+image.h */,
+				37E51CDC1CA1866100122F2E /* widget.h */,
+				37EB86411CA26D0200881B81 /* widgetbuilder.h */,
+				37EB865E1CA26FDA00881B81 /* WidgetsInfo.h */,
+				37EB86471CA26D9200881B81 /* widgettaphandler.h */,
+				37E51CFD1CA1984000122F2E /* xmlwidgetparser.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -277,6 +281,7 @@
 		5E14C64E1C9173A800FDC937 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				37EC30951CA9150A00BB196A /* iphviewcontrollerlist.m */,
 				37001B6B1CA3C45D00EA5386 /* NRGridViewController.m */,
 				37EB866A1CA270B800881B81 /* scrollwidget.m */,
 				37EB866B1CA270B800881B81 /* urlimagedictionary.m */,
@@ -438,6 +443,7 @@
 				37E51C271CA135EF00122F2E /* urlloader.m in Sources */,
 				37EB86641CA2701C00881B81 /* textfieldwidget.m in Sources */,
 				37E51CE71CA187C000122F2E /* SDCachedURLResponse.m in Sources */,
+				37EC30961CA9150A00BB196A /* iphviewcontrollerlist.m in Sources */,
 				37E31BFB1C9F09D70096BE74 /* appbuilderappconfig.m in Sources */,
 				37E51CF81CA18A1D00122F2E /* IBSideBarWidgetAction.m in Sources */,
 				37EB86701CA270B800881B81 /* webdatadictionary.m in Sources */,

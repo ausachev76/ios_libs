@@ -788,7 +788,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "../TBXML/TBXML-Headers/ ../iBuildAppLib/include/ ../SBJson/src/main/objc/ ../SDWebImage/";
+				USER_HEADER_SEARCH_PATHS = "../TBXML/TBXML-Headers/ ../SBJson/src/main/objc/ ../SDWebImage/ ../ibuildAppLib/customControls/ ../ibuildAppLib/customControls/iphone/ ../ibuildAppLib/customControls/iphone/IBSideBar/ ../ibuildAppLib/Config/ ../ibuildAppLib/nrGridView/ ../ibuildAppLib/layout/ ../ibuildAppLib/layout/uiwidgets/ ../iBuildAppLib/SQLiteManager/ ../ibuildAppLib/network/";
 				VALID_ARCHS = "armv7 i386 arm64";
 			};
 			name = Debug;
@@ -812,7 +812,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "../TBXML/TBXML-Headers/ ../iBuildAppLib/include/ ../SBJson/src/main/objc/ ../SDWebImage/";
+				USER_HEADER_SEARCH_PATHS = "../TBXML/TBXML-Headers/ ../SBJson/src/main/objc/ ../SDWebImage/ ../ibuildAppLib/customControls/ ../ibuildAppLib/customControls/iphone/ ../ibuildAppLib/customControls/iphone/IBSideBar/ ../ibuildAppLib/Config/ ../ibuildAppLib/nrGridView/ ../ibuildAppLib/layout/ ../ibuildAppLib/layout/uiwidgets/ ../iBuildAppLib/SQLiteManager/ ../ibuildAppLib/network/";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv7 i386 arm64";
 			};

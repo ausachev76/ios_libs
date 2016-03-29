@@ -366,7 +366,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "../FHSTwitterEngine/FHSTwitterEngine/ ../SBJson/src/main/objc/ ../MBProgressHUD/ ../FHSTwitterEngine/FHSTwitterEngine/OAuthConsumer/ ../iBuildAppLib/include/ ../Toolbox/";
+				USER_HEADER_SEARCH_PATHS = "../FHSTwitterEngine/FHSTwitterEngine/ ../SBJson/src/main/objc/ ../MBProgressHUD/ ../FHSTwitterEngine/FHSTwitterEngine/OAuthConsumer/ ../Toolbox/";
 				VALID_ARCHS = "armv7 i386 arm64";
 			};
 			name = Debug;
@@ -404,7 +404,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "../FHSTwitterEngine/FHSTwitterEngine/ ../SBJson/src/main/objc/ ../MBProgressHUD/ ../FHSTwitterEngine/FHSTwitterEngine/OAuthConsumer/ ../iBuildAppLib/include/ ../Toolbox/";
+				USER_HEADER_SEARCH_PATHS = "../FHSTwitterEngine/FHSTwitterEngine/ ../SBJson/src/main/objc/ ../MBProgressHUD/ ../FHSTwitterEngine/FHSTwitterEngine/OAuthConsumer/ ../Toolbox/";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv7 i386 arm64";
 			};
@@ -422,6 +422,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = auth_Share;
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../FHSTwitterEngine/FHSTwitterEngine/ ../SBJson/src/main/objc/ ../MBProgressHUD/ ../FHSTwitterEngine/FHSTwitterEngine/OAuthConsumer/ ../Toolbox/ ../iBuildAppLib/customControls/ ../iBuildAppLib/customControls/iphone/ ../iBuildAppLib/customControls/iphone/IBSideBar/ ../iBuildAppLib/Config/ ../iBuildAppLib/nrGridView/ ../iBuildAppLib/layout/ ../iBuildAppLib/layout/uiwidgets/ ../iBuildAppLib/SQLiteManager/ ../iBuildAppLib/network/";
 				VALID_ARCHS = "armv7 i386 arm64";
 			};
 			name = Debug;
@@ -438,6 +439,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = auth_Share;
 				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../FHSTwitterEngine/FHSTwitterEngine/ ../SBJson/src/main/objc/ ../MBProgressHUD/ ../FHSTwitterEngine/FHSTwitterEngine/OAuthConsumer/ ../Toolbox/ ../iBuildAppLib/customControls/ ../iBuildAppLib/customControls/iphone/ ../iBuildAppLib/customControls/iphone/IBSideBar/ ../iBuildAppLib/Config/ ../iBuildAppLib/nrGridView/ ../iBuildAppLib/layout/ ../iBuildAppLib/layout/uiwidgets/ ../iBuildAppLib/SQLiteManager/ ../iBuildAppLib/network/";
 				VALID_ARCHS = "armv7 i386 arm64";
 			};
 			name = Release;

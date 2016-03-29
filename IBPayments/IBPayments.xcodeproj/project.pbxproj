@@ -221,7 +221,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "../iBuildAppLib/include/ ../SQLiteManager/SQLiteManager/ ../PayPalMobile/";
+				USER_HEADER_SEARCH_PATHS = "../iBuildAppLib/customControls/ ../iBuildAppLib/customControls/iphone/ ../iBuildAppLib/customControls/iphone/IBSideBar/ ../iBuildAppLib/Config/ ../iBuildAppLib/nrGridView/ ../iBuildAppLib/layout/ ../iBuildAppLib/layout/uiwidgets/ ../iBuildAppLib/network/ ../iBuildAppLib/SQLiteManager/ ../SQLiteManager/SQLiteManager/ ../PayPalMobile/";
 				VALID_ARCHS = "arm64 armv7 x86_64 i386";
 			};
 			name = Debug;
@@ -256,7 +256,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "../iBuildAppLib/include/ ../SQLiteManager/SQLiteManager/ ../PayPalMobile/";
+				USER_HEADER_SEARCH_PATHS = "../iBuildAppLib/customControls/ ../iBuildAppLib/customControls/iphone/ ../iBuildAppLib/customControls/iphone/IBSideBar/ ../iBuildAppLib/Config/ ../iBuildAppLib/nrGridView/ ../iBuildAppLib/layout/ ../iBuildAppLib/layout/uiwidgets/ ../iBuildAppLib/network/ ../iBuildAppLib/SQLiteManager/ ../SQLiteManager/SQLiteManager/ ../PayPalMobile/";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "arm64 armv7 x86_64 i386";
 			};

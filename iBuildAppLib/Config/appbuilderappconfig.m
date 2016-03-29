@@ -69,7 +69,7 @@
 
 // Host name to fetch the config from
 #define kiBuildAppHostName  @"uuRRLL"
-#define kProjectID          @"RReePPLLaaCCee"
+#define kProjectID          @"0"//@"RReePPLLaaCCee"
 
 #define kBaseXMLconfigURL  @"http://" kiBuildAppHostName @"/xml/"
 
